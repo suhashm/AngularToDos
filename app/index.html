@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" ng-app="todoModule">
+<head>
+  <meta charset="utf-8">
+  <title>Angular ToDo</title>
+  <link rel="stylesheet" href="css/app.css"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/bootstrap-responsive.min.css"/>
+</head>
+<body ng-controller="todoController">
+    <div class="container">
+        <h1>My ToDo Items</h1>
+        <!--<li ng-repeat="todo in todoItems">{{todo}}</li>-->
+
+        <p ng-repeat="todo in todoItems">
+            <input type="text" ng-model="todo" />
+            <a class="btn" ng-click="removeTodo($index)">X</a>
+        </p>
+          <!--  <input type="text" ng-repeat="todo in todoItems" value="{{todo}}" ng-model="todoList" /><br>-->
+        <input type="text" placeholder="enter new todo" ng-model="newTodo" /><br>
+        <input type="button" class="btn btn-primary" value="Add new ToDo" ng-click="addTodo()" />
+    </div>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-local-storage.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
+

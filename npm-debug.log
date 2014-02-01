@@ -1,0 +1,69 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'karma@0.8.7' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose cache add [ 'karma@0.8.7', null ]
+6 verbose cache add name=undefined spec="karma@0.8.7" args=["karma@0.8.7",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'karma@0.8.7',
+7 verbose parsed url   path: 'karma@0.8.7',
+7 verbose parsed url   href: 'karma@0.8.7' }
+8 verbose cache add name="karma" spec="0.8.7" args=["karma","0.8.7"]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '0.8.7',
+9 verbose parsed url   path: '0.8.7',
+9 verbose parsed url   href: '0.8.7' }
+10 verbose addNamed [ 'karma', '0.8.7' ]
+11 verbose addNamed [ '0.8.7', '0.8.7' ]
+12 silly lockFile 8c5aa126-karma-0-8-7 karma@0.8.7
+13 verbose lock karma@0.8.7 C:\Users\shm2\AppData\Roaming\npm-cache\8c5aa126-karma-0-8-7.lock
+14 verbose url raw karma/0.8.7
+15 verbose url resolving [ 'https://registry.npmjs.org/', './karma/0.8.7' ]
+16 verbose url resolved https://registry.npmjs.org/karma/0.8.7
+17 info trying registry request attempt 1 at 13:20:22
+18 http GET https://registry.npmjs.org/karma/0.8.7
+19 info retry will retry, error on last attempt: Error: read ECONNRESET
+20 info trying registry request attempt 2 at 13:20:40
+21 http GET https://registry.npmjs.org/karma/0.8.7
+22 info retry will retry, error on last attempt: Error: read ECONNRESET
+23 info trying registry request attempt 3 at 13:21:48
+24 http GET https://registry.npmjs.org/karma/0.8.7
+25 silly lockFile 8c5aa126-karma-0-8-7 karma@0.8.7
+26 silly lockFile 8c5aa126-karma-0-8-7 karma@0.8.7
+27 error network read ECONNRESET
+27 error network This is most likely not a problem with npm itself
+27 error network and is related to network connectivity.
+27 error network In most cases you are behind a proxy or have bad network settings.
+27 error network
+27 error network If you are behind a proxy, please make sure that the
+27 error network 'proxy' config is set properly.  See: 'npm help config'
+28 error System Windows_NT 6.1.7601
+29 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "karma@0.8.7"
+30 error cwd C:\erg\prj\Angular\angular-seed-master\angular-seed-master
+31 error node -v v0.10.22
+32 error npm -v 1.3.14
+33 error syscall read
+34 error code ECONNRESET
+35 error errno ECONNRESET
+36 verbose exit [ 1, true ]
